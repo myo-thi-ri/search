@@ -1,0 +1,148 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+#link-container {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  margin: 20px;
+}
+h1 {
+  margin: 0;
+}
+.srch-box {
+  /* height: 34px;
+  width: 500px;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px; */
+  height: 34px;
+  width: 500px;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  /* display: flex; */
+  /* flex: 100%; */
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -2px;
+  /* height: 34px; */
+  font-size: 16px;
+}
+
+.container {
+  /* border-radius: 34px; */
+  padding: 15px 30px;
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 4px 16px;
+  /* padding-left: 14px; */
+}
+
+.wrapper {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.form-box {
+  width: 600px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 6px;
+}
+
+.fa-search {
+  /* display: flex; */
+  /* align-items: center; */
+  padding-right: 13px;
+  font-size: 30px;
+
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #9aa0a6;
+  line-height: 30px;
+  /* margin-top: -5px; */
+}
+
+.fa-microphone-alt {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 30px;
+
+  /* margin-top: -5px;
+  /* flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+  font-size: 30px;
+  padding-left: 13px; */
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+}
+
+.logo {
+  width: 300px;
+  height: 92px;
+  margin-top: auto;
+  position: relative;
+}
+
+.btn-container {
+  /* background: cornflowerblue; */
+  margin-top: 18px;
+  /* display: block;
+  position: relative;
+  margin: 0 auto; */
+}
+
+.btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
